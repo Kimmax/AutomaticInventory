@@ -420,6 +420,6 @@ public class AutomaticInventory extends JavaPlugin
 
     static boolean preventsChestOpen(Material aboveBlockID)
     {
-        return aboveBlockID != Material.CHEST && aboveBlockID.isSolid();
+        return aboveBlockID != Material.CHEST && aboveBlockID.isSolid();;
     }
 }
